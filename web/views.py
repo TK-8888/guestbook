@@ -15,3 +15,7 @@ class MessageCreate(CreateView):
     model = Message
     fields = '__all__'
     success_url = reverse_lazy('msg_list')
+    
+class MessageDelete(DeleteView):
+    model = Message
+    success_url = reverse_lazy('msg_list') 

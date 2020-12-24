@@ -122,3 +122,5 @@ STATIC_URL = '/static/'
 
 # 登入後重新導向首頁 (預設會導向 /accounts/profile/)
 LOGIN_REDIRECT_URL = '/'
+
+LOGOUT_REDIRECT_URL = '/'
